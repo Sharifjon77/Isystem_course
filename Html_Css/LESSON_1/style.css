@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+table td {
+  border: 1px solid #000;
+}
+
+.small {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(59, 59, 255);
+}
+
+.medium {
+  width: 78px;
+  height: 78px;
+  background-color: rgb(89, 160, 89);
+}
+
+.large {
+  width: 178px;
+  height: 178px;
+  background-color: rgb(255, 106, 106);
+}
