@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 5</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <form accept="https://mysite.uz/register" method="post"></form> -->
+    <form>
+      <label for="name">Ismingizni yozing...</label>
+      <input type="text" id="name" placeholder="James" />
+
+      <label for="email">Emailni yozing...</label>
+      <input type="email" id="email" placeholder="James@gmail.com" />
+
+      <label for="password">Parolni yozing...</label>
+      <input type="password" id="password" />
+
+      <label for="color">Rangni tanlang...</label>
+      <input type="color" id="color" />
+
+      <label for="date">Raqamni tanlang...</label>
+      <input type="date" id="date" />
+
+      <label for="dateime">Sana va vaqtni kiriting</label>
+      <input type="datetime" id="dateime" />
+
+      <label for="file">Faylni yuklang</label>
+      <input type="file" id="file" />
+
+      <label for="month">Oyni yuklang</label>
+      <input type="month" id="month" />
+
+      <label for="week">Oyni yuklang</label>
+      <input type="week" id="week" />
+
+      <label for="male">Barcha shartlarga roziman</label>
+      <input type="radio" id="male" name="gender" value="Male"/ >
+
+      <label for="famale">famliyani kiritihg</label>
+      <input type="radio" id="famale" name="gender"value="Female" / >
+
+      <select name="cars">
+        <option value="">Avtobolim seriasi</option>
+        <option value="">BMW x7</option>
+        <option value="">BMW x6</option>
+        <option value="">BMW x5</option>
+      </select>
+
+      <label for="rangeNumber"> 1 dan 10 gacha tanlang</label>
+      <input id="rangeNumber" type="range" min="0" max="10" />
+
+      <label for="search">Qidirish</label>
+      <input id="search" type="search" placeholder="A Book" />
+
+      <label for="tel">Tel</label>
+      <input id="tel" type="tel" placeholder="+998901234567" />
+
+      <label for="time">Vaqt</label>
+      <input id="time" type="time" />
+
+      <label for="url">Urlni kiriting</label>
+      <input id="url" type="url" placeholder="www.google.com" />
+
+      <input type="reset" value="reset " /> /*hamma inputni tozalaydi*/
+
+      <input type="submit" value="yuborish" />
+
+      <button type="submit">Yuborish</button>
+    </form>
+
+    <video controls autoplay muted>
+      /*autoplay- sahifa ochilishi bilan ishlashdi muted-ovozsiz boshlaydi*/
+      <source src="./video/video 1.mp4" type="video/mp4" />
+    </video>
+
+    <audio controls controlsList="nodownload">
+      /*controlsList="nodownload - bu yuklab olishga yo'l qo'ymaydi*/
+      <source src="./audio/audio 1.mp3" type="audio/mp3" />
+    </audio>
+  </body>
+</html>

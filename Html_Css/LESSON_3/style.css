@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Regular;
+  src: url("./fonts/NotoSansDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Black;
+  src: url("./fonts/NotoSansDisplay-Black.ttf");
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Bold;
+  src: url("./fonts/NotoSansDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Light;
+  src: url("./fonts/NotoSansDisplay-Light.ttf");
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Medium;
+  src: url("./fonts/NotoSansDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: NotoSansDisplay-SemiBold;
+  src: url("./fonts/NotoSansDisplay-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Thin;
+  src: url("./fonts/NotoSansDisplay-Thin.ttf");
+}
+
+body {
+  font-family: NotoSansDisplay-Regular, sans-serif;
+  background: linear-gradient(
+    95.2deg,
+    rgba(173, 252, 234, 1) 25.8%,
+    rgba(192, 229, 246, 1) 64%
+  );
+  /* background-image: linear-gradient(90deg, red, yellow); */
+}
+
+.light-text {
+  font-family: NotoSansDisplay-Light, sans-serif;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  background-color: #fff;
+}
+
+ul li {
+  /* display: inline; Bir qator qiladi va pedding berganda tepa va pastiga tasiq qilmaydi*/
+  display: inline-block; /*Bu ham bir qator qiladi va pedding ikki tomonoga ham ta'siq qiladi*/
+  padding: 20px 10px;
+}
+
+ul li a {
+  text-decoration: none; /*Chiziqcha yo'q bo'ladi*/
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul li:hover {
+  background-color: #ccc;
+}
+
+ul li:hover .logo {
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  width: 1200px;
+  min-height: 400px;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+}
+
+.col {
+  /* float: right; */
+  /* display: inline-block; */
+  width: 25%;
+  min-height: 200px;
+  border: 1px solid #000;
+}

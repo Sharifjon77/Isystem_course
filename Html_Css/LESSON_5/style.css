@@ -1,0 +1,15 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+input {
+  color: #ffff;
+  background-color: #000;
+  padding: 5px 2px;
+  border: 2px solid #c1c1c1;
+  text-transform: capitalize;
+}
+
+input::placeholder {
+  color: #cccc;
+}
